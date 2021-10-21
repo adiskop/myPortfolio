@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import sanityClient from "../client.js";
-import seychelles from "../seychelles.jpg";
+import pc from "../pc.jpg";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 
@@ -25,8 +25,8 @@ export default function About(){
 
     return (
         <main className="relative">
-            <img src={seychelles}
-            alt="Seychelles Picture"
+            <img src={pc}
+            alt="pc Picture"
             className="absolute w-full"
             />
             <div className="p-10 lg:pt-48 container mx-auto relative">
